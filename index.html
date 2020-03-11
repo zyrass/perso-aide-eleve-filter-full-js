@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Metas -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio de BLAKA Adama, développeur WEB junior, présentant mon parcours, mes compétences, mes réalisations et mes informations de contact." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title> John Doe - Développeur Web Junior | Mes réalisations</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Google font -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins&display|Raleway:300,700" />
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <!-- 
+      ==========================================================================
+      Plusieurs informations importantes
+      ==========================================================================
+      
+        - Je code ton site de façon à ce qu'il ressemble à une SPA
+          ( SPA = single page application )
+      
+        - Si tu décides de tout découper afin que ton site soit multi-page,
+          je te conseil de découper le header et footer dans des partials que tu incluras dans chacune de tes pages. Comme ça tu pourras modifier ton  code à un seul endroit ;)
+        
+        - Les classes sont utilisées pour du CSS et les id(s) sont utilisés pour le javaScript ;)
+
+        - Le h5 / h6 sont très peu utilisé dans la vie de tout les jours
+
+    -->
+
+    <!-- navigation ( Menu ) -->
+    <nav class="navigation">
+
+        <a href="#" class="brand">John Doe</a>
+
+        <ul>
+            <li>
+                <a href="#presentation" class="active" id="nav-presentation">
+                    <i class="fa fa-home"></i>Accueil
+                </a>
+            </li>
+            <li>
+                <a href="#realisations" id="nav-realisations">
+                    <i class="fa fa-folder-open"></i>Réalisations
+                </a>
+            </li>
+            <li>
+                <a href="#competences" id="nav-competences">
+                    <i class="fa fa-graduation-cap"></i>Compétences
+                </a>
+            </li>
+            <li>
+                <a href="#contact" id="nav-contact">
+                    <i class="fa fa-envelope"></i>Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Présentation ( Menu > Accueil ) -->
+    <header class="presentation" id="presentation">
+        <img src="http://placeholder.pics/svg/300x300/DEDEDE/555555/Image%20fake" alt="user fake" />
+        <h1>JOHN DOE</h1>
+        <p>Développeur Web Junior !!!.</p>
+    </header>
+
+    <!-- Réalisations ( Menu > Réalisations ) -->
+    <section class="realisations" id="realisations">
+        <h2>Réalisations</h2>
+        <div class="buttons_filters">
+            <button type="button" id="btn-all" class="btn btn-active">Tout</button>
+            <button type="button" id="btn-int" class="btn">Intégration</button>
+            <button type="button" id="btn-dev" class="btn">Développement</button>
+        </div>
+
+        <!-- Cards_realisations ( container ) -->
+        <div class="cards_realisations" id="cards_container">
+
+            <!-- Card Red Wolf -->
+            <div class="card_container" id="card-red-wolf">
+                <div class="card_bandeau">Intégration</div>
+                <img src="./images/réalisations/red_wolf.jpg" alt="Maquette Red Wolf" />
+                <h3>Red Wolf</h3>
+                <div class="card_body">
+                    <p>Page responsive avec ajout d'un plugin jQuery "flexslider"</p>
+                </div>
+            </div>
+            <!-- /Card Red Wolf -->
+
+            <!-- Card John Doe -->
+            <div class="card_container" id="card-john-doe">
+                <div class="card_bandeau">Intégration</div>
+                <img src="./images/réalisations/john_doe.jpg" alt="Maquette Red Wolf" />
+                <h3>John Doe</h3>
+                <div class="card_body">
+                    <p>Portfolio one page responsive avec animations CSS</p>
+                </div>
+            </div>
+            <!-- /Card John Doe -->
+
+            <!-- Card Cup of Tea -->
+            <div class="card_container" id="card-cup-of-tea">
+                <div class="card_bandeau">Intégration</div>
+                <img src="./images/réalisations/cup_of_tea.jpg" alt="Maquette Red Wolf" />
+                <h3>Cup of Tea</h3>
+                <div class="card_body">
+                    <p>Utilisation de KNACSS, SASS, Flexbox.</p>
+                </div>
+                <div class="card_footer">
+
+                </div>
+            </div>
+            <!-- /Card Cup of Tea -->
+
+            <!-- Card Carrousel -->
+            <div class="card_container" id="card-carrousel">
+                <div class="card_bandeau">Développement</div>
+                <img src="./images/réalisations/carrousel.jpg" alt="Maquette Carrousel" />
+                <h3>Carrousel</h3>
+                <div class="card_body">
+                    <p>
+                        Carroussel réalisé en Vanilla JS
+                    </p>
+                </div>
+            </div>
+            <!-- /Card Carrousel -->
+
+        </div>
+        <!-- /.Cards_realisations ( container ) -->
+    </section>
+
+    <!-- Compétences ( Menu > Compétences ) -->
+    <section class="competences" id="competences">
+        <h2>Compétences à éditer</h2>
+    </section>
+
+    <!-- Réalisations ( Menu > Contact ) -->
+    <section class="contact" id="contact">
+        <h2>Contact à éditer</h2>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="icons">
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <p>
+            <small>
+          &copy; Copyright 2020 - John Doe, développeur web junior
+        </small>
+        </p>
+    </footer>
+
+    <!-- Scripts perso -->
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
