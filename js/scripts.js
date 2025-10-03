@@ -141,7 +141,7 @@ function loading() {
   const loading = document.createElement("img");
   loading.setAttribute("id", "loading");
   loading.setAttribute = "src";
-  loading.src = "https://i.ya-webdesign.com/images/minimalist-transparent-loading-gif-9.gif";
+  loading.src = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif";
   loading.setAttribute = "alt";
   loading.alt = "Image de chargement";
   loading.style.maxWidth = "250px";
